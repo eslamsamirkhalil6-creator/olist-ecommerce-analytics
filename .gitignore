@@ -1,0 +1,15 @@
+# Data files (exclude large raw datasets)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+env/
+venv/
+.env
