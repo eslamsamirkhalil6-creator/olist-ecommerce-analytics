@@ -21,3 +21,5 @@ data/raw/*.csv
 # Ignore OS junk files
 .DS_Store
 Thumbs.db
+notebooks/data/
+*.parquet
