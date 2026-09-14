@@ -23,3 +23,5 @@ data/raw/*.csv
 Thumbs.db
 notebooks/data/
 *.parquet
+
+*.pbix
