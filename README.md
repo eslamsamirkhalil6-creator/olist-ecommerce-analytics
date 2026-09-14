@@ -162,3 +162,68 @@ Transformed raw datasets into an enterprise-grade **Medallion Architecture** (Br
 ### 8. Next Steps
 * Connect Power BI to the `gold` database views via SQL Server connector.
 * Design interactive executive dashboards focusing on regional sales performance, delivery bottlenecks, seller SLA metrics, and customer review sentiment.
+
+# 📊 Olist E-Commerce Analytics & Business Intelligence Project
+
+A comprehensive end-to-end data analytics project examining the Olist Brazilian E-Commerce dataset. This project investigates key business dimensions—including product performance, customer segmentation via RFM, logistics efficiency, and revenue drivers—to generate actionable strategic insights and operational recommendations.
+
+---
+
+## 📈 1. Product, Revenue & Operations Analytics
+
+![Product & Revenue Dashboard]("D:\olist-ecommerce-analytics\images\Screenshot 2026-09-11 192735.png")
+
+### **Key Performance Indicators**
+* **Total Revenue:** $13.59M
+* **Average Order Value (AOV):** $137.75
+* **Total Products Sold:** 135K
+
+### **Strategic Insights & Business Recommendations**
+* **Category Optimization & Revenue Concentration:** High-performing categories such as *Health & Beauty* and *Watches & Gifts* drive the majority of revenue, indicating a clear opportunity to allocate targeted marketing budgets and promotional campaigns toward these high-margin product lines.
+* **AOV & Basket Size Expansion:** With the Average Order Value sitting at $137.75, implementing cross-selling tactics, product bundling, and free shipping thresholds can effectively incentivize customers to increase their cart sizes per transaction.
+* **Operational Readiness for Seasonal Peaks:** The monthly revenue distribution highlights consistent mid-year sales peaks, requiring proactive inventory management and optimized supply chain coordination with sellers to prevent fulfillment delays and sustain customer satisfaction.
+
+---
+
+## 👥 2. Customer Analytics & RFM Segmentation
+
+![Customer Analytics Dashboard]("D:\olist-ecommerce-analytics\images\Screenshot 2026-09-11 193455.png")
+
+### **Key Performance Indicators**
+* **Total Unique Customers:** 96K
+* **Total Orders:** 99K
+* **Repeat Customers:** 12K
+* **Repeat Purchase Rate:** 12.35%
+
+### **Business Recommendations Derived from Customer Analytics & RFM Segmentation**
+* **Launch Targeted Re-engagement Campaigns for At-Risk Customers:** The analysis identifies valuable customers who haven't purchased in a long time but previously showed high spend and order frequency; immediate win-back email campaigns or tailored discount offers should be deployed to prevent permanent churn.
+* **Establish Exclusive Loyalty Programs for Champions:** A significant portion of the platform's value is driven by top-tier buyers, meaning exclusive perks, early access to sales, and priority support should be provided to maximize their Customer Lifetime Value (CLV).
+* **Nurture Potential Loyalists to Boost Repeat Purchases:** With the repeat purchase rate standing at 12.3%, recent customers who have placed multiple orders should be targeted with second-purchase incentives to transition them into long-term loyal advocates.
+* **Optimize Regional Marketing Budgets Based on Geographic Density:** The state-level map distribution should be leveraged to identify high-concentration customer hubs in Brazil, directing performance marketing and logistics allocation toward top-performing regions to maximize return on ad spend (ROAS).
+
+---
+
+## 🚚 3. Logistics & Operations Performance
+
+![Logistics Performance Dashboard]("D:\olist-ecommerce-analytics\images\Screenshot 2026-09-11 194522.png")
+
+### **Key Performance Indicators**
+* **Average Review Score:** 4.09
+* **Average Delivery Delay Days:** 8.74 days
+* **Late Delivery Rate:** 0.08%
+
+### **Strategic Recommendations & Executive Actions**
+1. **Category & Seller Risk Matrix (Scatter Plot):**
+   * *Insight:* Key product categories and top-performing sellers are concentrated in the high-risk quadrant (high total revenue paired with elevated average delivery delays and declining customer reviews).
+   * *Proposed Strategy:* 
+     * **Regional Fulfillment Hubs:** Establish strategically placed regional warehouses to decentralize inventory and significantly reduce last-mile delivery times.
+     * **Mandatory Fulfillment Onboarding:** Require high-volume sellers with delivery delays to store their inventory directly in Olist fulfillment centers to streamline shipping operations.
+     * **Enforced Delay Penalties:** Implement a structured penalty policy imposing financial deductions (e.g., up to 30% on delayed shipments) to hold merchants accountable and eliminate fulfillment friction.
+2. **High-Risk Sellers Analysis (Bar Chart & Operations Table):**
+   * *Insight:* Over 60%-70% of total Revenue at Risk is driven by a small, concentrated group of vendors (Top 10 High-Risk Sellers).
+   * *Proposed Strategy:* **Targeted Intervention:** Operations teams should directly engage the top 10 bottleneck sellers, issuing a 14-day performance correction window prior to account suspension or mandatory fulfillment transition.
+3. **Customer Satisfaction Impact (Combo Chart):**
+   * *Insight:* A sharp inverse correlation exists between extended delivery lead times and customer sentiment, causing average review scores to drop below the acceptable 4.0 threshold.
+   * *Proposed Strategy:* **Proactive Retention:** Automate real-time order tracking notifications and dispatch proactive compensation (e.g., discount vouchers) for delayed shipments to mitigate negative reviews and preserve customer trust.
+
+---
